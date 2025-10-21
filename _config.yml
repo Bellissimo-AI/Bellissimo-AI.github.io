@@ -10,19 +10,16 @@ contact_note: >
   Prefer email for first contact.
 description: >
   AI/ML researcher focusing on NLP, multimodal LLMs, and time-series forecasting.
-footer_text: >
-  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with
-  <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
-  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+footer_text: ""
 keywords: ai, machine-learning, nlp, llm, portfolio, academic-website
 lang: en
 icon: "✧"
 
 # GitHub Pages: 사용자 페이지(https://Bellissimo-AI.github.io) 기준
-url: https://bellissimo-ai.github.io
+url: "https://bellissimo-ai.github.io"
 baseurl: ""
 
-last_updated: true
+last_updated: false
 impressum_path:
 back_to_top: true
 

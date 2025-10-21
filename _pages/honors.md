@@ -9,6 +9,18 @@ nav_order: 5
 <br>
 
 <div style="display:flex;justify-content:space-between;align-items:baseline;margin-bottom:0.3em;">
+  <div><strong>Sungkyunkwan University College of Education Dean’s Award</strong>, AI Hackathon</div>
+  <div style="text-align:right;white-space:nowrap;"><em>Oct 2025</em></div>
+</div>
+5th Sungkyunkwan University AI Hackathon, 2025<br>
+<ul style="margin:0.4em 0 1.1em 1.2em; line-height:1.65;">
+  <li>Development of a high-fidelity tax advisory AI system.</li>
+  <li>Awarded <strong>5th place</strong></li>
+</ul>
+
+<br>
+
+<div style="display:flex;justify-content:space-between;align-items:baseline;margin-bottom:0.3em;">
   <div><strong>Excellence Award</strong>, AI Competition</div>
   <div style="text-align:right;white-space:nowrap;"><em>Sep 2025</em></div>
 </div>
@@ -47,7 +59,7 @@ DACON Inc. · <strong>Korea Energy Agency (KEA)</strong>
 <br>
 
 <div style="display:flex;justify-content:space-between;align-items:baseline;margin-bottom:0.3em;">
-  <div><strong>Korea Intellectual Property Office Commissioner’s Award</strong></div>
+  <div><strong>Korea Intellectual Property Office Commissioner’s Award</strong>, Idea Competition</div>
   <div style="text-align:right;white-space:nowrap;"><em>Aug 2023</em></div>
 </div>
 National Defense Conundrum Solution Idea Competition  

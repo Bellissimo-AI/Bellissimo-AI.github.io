@@ -17,7 +17,7 @@ nav_order: 3
   <div><strong>Undergraduate Researcher</strong>, Sungkyunkwan University (SKKU)</div>
   <div style="text-align:right;white-space:nowrap;"><em>Jul 2025 – Present</em></div>
 </div>
-<a href="https://dli.skku.edu/" target="_blank" style="text-decoration:none;">Data & Language Intelligence Laboratory (DLI)</a>, Advisor: <em>Prof. YunSeok Choi</em>  
+<a href="https://dli.skku.edu/" target="_blank" style="text-decoration:none;">Data & Language Intelligence Laboratory (DLI)</a>, <em>Advisor: Prof. YunSeok Choi</em>  
 <ul style="margin:0.4em 0 1.1em 1.2em;line-height:1.65;">
   <li>Conducting research on <strong>knowledge distillation</strong> and <strong>multimodal fusion</strong> for efficient and interpretable models.</li>
 </ul>
@@ -28,7 +28,7 @@ nav_order: 3
   <div><strong>Undergraduate Researcher</strong>, Sungkyunkwan University (SKKU)</div>
   <div style="text-align:right;white-space:nowrap;"><em>Dec 2024 – Jul 2025</em></div>
 </div>
-<a href="https://swb.skku.edu/dehublab/index.do" target="_blank" style="text-decoration:none;">Digital Environment Human Behavior Lab (DEHUB)</a>, Advisor: <em>Prof. Daeho Lee</em>  
+<a href="https://swb.skku.edu/dehublab/index.do" target="_blank" style="text-decoration:none;">Digital Environment Human Behavior Lab (DEHUB)</a>, <em>Advisor: Prof. Daeho Lee</em>  
 <ul style="margin:0.4em 0 1.1em 1.2em;line-height:1.65;">
   <li>Conducted research on predictive modeling using <strong>natural language processing</strong>.</li>
 </ul>
