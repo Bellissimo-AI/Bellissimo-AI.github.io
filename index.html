@@ -88,47 +88,18 @@
               <td style="padding:16px;width:100%;vertical-align:middle">
                 <h2 style="margin-bottom: 24px; font-weight: bold; font-size: 24px; font-family: 'Merriweather', serif;">Honors & Awards</h2>
 
-                <!-- Toggle Links -->
-                <div style="margin-bottom: 12px;">
-                  <a href="#" onclick="showAwards('selected'); return false;" id="selectedLink" style="font-weight: bold; text-decoration: underline; color: #0033B3; margin-right: 8px;">Selected</a>
-                  <a href="#" onclick="showAwards('all'); return false;" id="allLink" style="color: #d0d0d0; text-decoration: none;">All</a>
-                </div>
-
-                <!-- Awards Lists -->
-                <!-- Selected Awards -->
-                <div id="selectedAwards" style="margin-top: 0px;">
+                <div style="margin-top: 0px;">
                   <div style="margin-bottom:24px;">
                     <div>
-                      <span class="papertitle">Excellence Award (Korea Energy Agency)</span>
-                      Development of a power consumption forecasting AI model.<br>
-                      <em>Power Consumption Forecasting AI Competition, Sep 2025</em><br>
-                      <a href="https://github.com/Bellissimo-AI/2025_Electricity_Consumption_Forecasting_AI_Competition">[code]</a>
+                      <span class="papertitle">Director's Award, Center for Innovative Higher Education, Sungkyunkwan University</span>
+                      Developed a reliability-aware LiDAR–Camera BEV fusion method for robust 3D detection.<br>
+                      <em>Co-Deep Learning Project, Jan 2026</em>
                     </div>
                   </div>
 
                   <div style="margin-bottom:24px;">
                     <div>
-                      <span class="papertitle">Institute for Information & Communications Technology Planning & Evaluation President's Award</span>
-                      Development of an AI model to detect LLM-generated text. Winner of the Popularity Award.<br>
-                      <em>SW-Centered University Digital Competition: AI Sector, Aug 2025</em><br>
-                      <a href="https://github.com/Bellissimo-AI/2025_SW_Centered_University_Digital_Competition">[code]</a>
-                    </div>
-                  </div>
-
-                  <div style="margin-bottom:24px;">
-                    <div>
-                      <span class="papertitle">Korea Intellectual Property Office Commissioner's Award</span>
-                      Designed an AI-based system for mitigating acoustic noise in naval propulsion and maneuvering.<br>
-                      <em>National Defense Conundrum Solution Idea Competition, Aug 2023</em>
-                    </div>
-                  </div>
-                </div>
-
-                <!-- All Awards -->
-                <div id="allAwards" style="display: none; margin-top: 0px;">
-                  <div style="margin-bottom:24px;">
-                    <div>
-                      <span class="papertitle">Sungkyunkwan University College of Education Dean's Award</span>
+                      <span class="papertitle">Dean's Award, Sungkyunkwan University College of Education</span>
                       Development of a high-fidelity tax advisory AI system.<br>
                       <em>5th Sungkyunkwan University AI Hackathon, Oct 2025</em>
                     </div>
@@ -136,7 +107,7 @@
 
                   <div style="margin-bottom:24px;">
                     <div>
-                      <span class="papertitle">Excellence Award (Korea Energy Agency)</span>
+                      <span class="papertitle">Excellence Award, Korea Energy Agency</span>
                       Development of a power consumption forecasting AI model.<br>
                       <em>Power Consumption Forecasting AI Competition, Sep 2025</em><br>
                       <a href="https://github.com/Bellissimo-AI/2025_Electricity_Consumption_Forecasting_AI_Competition">[code]</a>
@@ -145,7 +116,7 @@
 
                   <div style="margin-bottom:24px;">
                     <div>
-                      <span class="papertitle">Institute for Information & Communications Technology Planning & Evaluation President's Award</span>
+                      <span class="papertitle">President's Award, Institute for Information & Communications Technology Planning & Evaluation</span>
                       Development of an AI model to detect LLM-generated text. Winner of the Popularity Award.<br>
                       <em>SW-Centered University Digital Competition: AI Sector, Aug 2025</em><br>
                       <a href="https://github.com/Bellissimo-AI/2025_SW_Centered_University_Digital_Competition">[code]</a>
@@ -154,7 +125,7 @@
 
                   <div style="margin-bottom:24px;">
                     <div>
-                      <span class="papertitle">DB Kim Jun Ki Cultural Foundation Chairman's Award</span>
+                      <span class="papertitle">Chairman's Award, DB Kim Jun Ki Cultural Foundation</span>
                       Authored a paper on anxiety sentiment and bond investment behavior using BERT.<br>
                       <em>15th DB Insurance & Finance Contest, May 2025</em>
                     </div>
@@ -162,56 +133,12 @@
 
                   <div style="margin-bottom:24px;">
                     <div>
-                      <span class="papertitle">Korea Intellectual Property Office Commissioner's Award</span>
+                      <span class="papertitle">Commissioner's Award, Korea Intellectual Property Office</span>
                       Designed an AI-based system for mitigating acoustic noise in naval propulsion and maneuvering.<br>
                       <em>National Defense Conundrum Solution Idea Competition, Aug 2023</em>
                     </div>
                   </div>
                 </div>
-                <script>
-                  function showAwards(view) {
-                    const selected = document.getElementById('selectedAwards');
-                    const all = document.getElementById('allAwards');
-                    const selectedLink = document.getElementById('selectedLink');
-                    const allLink = document.getElementById('allLink');
-
-                    if (view === 'selected') {
-                      selected.style.display = 'block';
-                      all.style.display = 'none';
-                      selectedLink.style.fontWeight = 'bold';
-                      selectedLink.style.color = '#0033B3';
-                      selectedLink.style.textDecoration = 'underline';
-                      allLink.style.fontWeight = 'normal';
-                      allLink.style.color = '#d0d0d0';
-                      allLink.style.textDecoration = 'none';
-                    } else {
-                      selected.style.display = 'none';
-                      all.style.display = 'block';
-                      allLink.style.fontWeight = 'bold';
-                      allLink.style.color = '#0033B3';
-                      allLink.style.textDecoration = 'underline';
-                      selectedLink.style.fontWeight = 'normal';
-                      selectedLink.style.color = '#d0d0d0';
-                      selectedLink.style.textDecoration = 'none';
-                    }
-                  }
-
-                  // Set default state on page load
-                  if (typeof window.onload === 'function') {
-                    const originalOnload = window.onload;
-                    window.onload = function() {
-                      originalOnload();
-                      showAwards('selected');
-                    };
-                  } else {
-                    window.onload = function () {
-                      showAwards('selected');
-                      if (typeof showScholarships === 'function') {
-                        showScholarships('selected');
-                      }
-                    };
-                  }
-                </script>
               </td>
             </tr>
           </tbody></table>
@@ -221,26 +148,7 @@
               <td style="padding:16px;width:100%;vertical-align:middle">
                 <h2 style="margin-bottom: 24px; font-weight: bold; font-size: 24px; font-family: 'Merriweather', serif;">Scholarship</h2>
 
-                <!-- Toggle Links -->
-                <div style="margin-bottom: 12px;">
-                  <a href="#" onclick="showScholarships('selected'); return false;" id="selectedScholarshipLink" style="font-weight: bold; text-decoration: underline; color: #0033B3; margin-right: 8px;">Selected</a>
-                  <a href="#" onclick="showScholarships('all'); return false;" id="allScholarshipLink" style="color: #d0d0d0; text-decoration: none;">All</a>
-                </div>
-
-                <!-- Scholarships Lists -->
-                <!-- Selected Scholarships -->
-                <div id="selectedScholarships" style="margin-top: 0px;">
-                  <div style="margin-bottom:24px;">
-                    <div>
-                      <span class="papertitle">Presidential Science Scholarship</span>
-                      One of 60 nationally selected science and engineering students awarded full tuition and research funding.<br>
-                      <em>President of the Republic of Korea, Feb 2025 - Present</em>
-                    </div>
-                  </div>
-                </div>
-
-                <!-- All Scholarships -->
-                <div id="allScholarships" style="display: none; margin-top: 0px;">
+                <div style="margin-top: 0px;">
                   <div style="margin-bottom:24px;">
                     <div>
                       <span class="papertitle">Presidential Science Scholarship</span>
@@ -273,35 +181,6 @@
                     </div>
                   </div>
                 </div>
-                <script>
-                  function showScholarships(view) {
-                    const selected = document.getElementById('selectedScholarships');
-                    const all = document.getElementById('allScholarships');
-                    const selectedLink = document.getElementById('selectedScholarshipLink');
-                    const allLink = document.getElementById('allScholarshipLink');
-
-                    if (view === 'selected') {
-                      selected.style.display = 'block';
-                      all.style.display = 'none';
-                      selectedLink.style.fontWeight = 'bold';
-                      selectedLink.style.color = '#0033B3';
-                      selectedLink.style.textDecoration = 'underline';
-                      allLink.style.fontWeight = 'normal';
-                      allLink.style.color = '#d0d0d0';
-                      allLink.style.textDecoration = 'none';
-                    } else {
-                      selected.style.display = 'none';
-                      all.style.display = 'block';
-                      allLink.style.fontWeight = 'bold';
-                      allLink.style.color = '#0033B3';
-                      allLink.style.textDecoration = 'underline';
-                      selectedLink.style.fontWeight = 'normal';
-                      selectedLink.style.color = '#d0d0d0';
-                      selectedLink.style.textDecoration = 'none';
-                    }
-                  }
-
-                </script>
               </td>
             </tr>
           </tbody></table>
