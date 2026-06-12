@@ -94,15 +94,16 @@ sup {
 .navbar-links {
   display: flex;
   flex-wrap: wrap;
-  gap: 22px;
+  gap: 6px;
 }
 
 .navbar-links a {
-  position: relative;
   font-size: 14px;
   font-weight: 500;
   color: #b6c8e4;
-  padding: 6px 2px;
+  padding: 5px 12px;
+  border-radius: 999px;
+  transition: color 0.15s ease, background-color 0.15s ease;
 }
 
 .navbar-links a:hover,
@@ -114,17 +115,7 @@ sup {
 .navbar-links a.active {
   color: var(--white);
   font-weight: 600;
-}
-
-.navbar-links a.active::after {
-  content: '';
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  height: 2.5px;
-  border-radius: 2px;
-  background: var(--accent);
+  background: var(--accent-dark);
 }
 
 /* =========================
