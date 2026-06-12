@@ -236,10 +236,6 @@ sup {
   padding: 10px 0;
   border-bottom: 3px solid var(--accent);
   display: block;
-  position: sticky;
-  top: 58px;
-  z-index: 50;
-  background: var(--navy-50);
 }
 
 .research-desc {
@@ -302,11 +298,9 @@ sup {
 }
 
 .code-link {
-  display: inline-flex;
-  align-items: center;
-  gap: 5px;
-  margin-left: 8px;
-  padding: 2px 11px;
+  display: inline-block;
+  margin-top: 6px;
+  padding: 2px 12px;
   border: 1px solid var(--border);
   border-radius: 999px;
   background: var(--navy-100);
@@ -314,13 +308,7 @@ sup {
   font-size: 12.5px;
   font-weight: 600;
   line-height: 1.6;
-  vertical-align: middle;
   transition: background-color 0.15s ease, color 0.15s ease, border-color 0.15s ease;
-}
-
-.code-link svg {
-  width: 13px;
-  height: 13px;
 }
 
 .code-link:hover,
@@ -397,24 +385,43 @@ sup {
    ========================= */
 
 @media (max-width: 760px) {
+  body {
+    font-size: 15px;
+  }
+
+  .container {
+    padding: 0 18px;
+  }
+
   .navbar-inner {
     height: auto;
     flex-direction: column;
-    gap: 6px;
+    gap: 4px;
     padding: 10px 0;
   }
 
   .navbar-links {
-    gap: 14px;
+    gap: 2px;
     justify-content: center;
   }
 
+  .navbar-links a {
+    font-size: 13px;
+    padding: 4px 9px;
+  }
+
   .section {
-    scroll-margin-top: 96px;
+    padding: 36px 0 8px;
+    scroll-margin-top: 104px;
   }
 
   .section-title {
-    top: 92px;
+    font-size: 23px;
+  }
+
+  .card,
+  .entry {
+    padding: 15px 16px;
   }
 
   .hero {
