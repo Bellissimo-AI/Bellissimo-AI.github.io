@@ -61,6 +61,55 @@ sup {
 }
 
 /* =========================
+   Navbar
+   ========================= */
+
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: var(--navy-900);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.25);
+}
+
+.navbar-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 58px;
+}
+
+.navbar-brand {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--white);
+}
+
+.navbar-brand:hover {
+  color: var(--white);
+  text-decoration: none;
+}
+
+.navbar-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 22px;
+}
+
+.navbar-links a {
+  font-size: 14px;
+  font-weight: 500;
+  color: #b6c8e4;
+}
+
+.navbar-links a:hover,
+.navbar-links a:focus {
+  color: var(--white);
+  text-decoration: none;
+}
+
+/* =========================
    Hero
    ========================= */
 
@@ -166,6 +215,7 @@ sup {
 
 .section {
   padding: 48px 0 8px;
+  scroll-margin-top: 58px;
 }
 
 .section-title {
@@ -174,9 +224,13 @@ sup {
   font-weight: 700;
   color: var(--navy-800);
   margin-bottom: 24px;
-  padding-bottom: 10px;
+  padding: 10px 0;
   border-bottom: 3px solid var(--accent);
-  display: inline-block;
+  display: block;
+  position: sticky;
+  top: 58px;
+  z-index: 50;
+  background: var(--navy-50);
 }
 
 .research-desc {
@@ -304,6 +358,26 @@ sup {
    ========================= */
 
 @media (max-width: 760px) {
+  .navbar-inner {
+    height: auto;
+    flex-direction: column;
+    gap: 6px;
+    padding: 10px 0;
+  }
+
+  .navbar-links {
+    gap: 14px;
+    justify-content: center;
+  }
+
+  .section {
+    scroll-margin-top: 96px;
+  }
+
+  .section-title {
+    top: 92px;
+  }
+
   .hero {
     padding: 56px 0 48px;
   }

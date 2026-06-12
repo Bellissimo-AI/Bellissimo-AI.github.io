@@ -14,8 +14,23 @@
   </head>
 
   <body>
+    <!-- ===== Navbar ===== -->
+    <nav class="navbar">
+      <div class="container navbar-inner">
+        <a class="navbar-brand" href="#about">Junhyung Kim</a>
+        <div class="navbar-links">
+          <a href="#about">About</a>
+          <a href="#research">Research</a>
+          <a href="#experience">Experience</a>
+          <a href="#publications">Publications</a>
+          <a href="#awards">Honors &amp; Awards</a>
+          <a href="#scholarship">Scholarship</a>
+        </div>
+      </div>
+    </nav>
+
     <!-- ===== Hero ===== -->
-    <header class="hero">
+    <header class="hero" id="about">
       <div class="container hero-inner">
         <div class="hero-text">
           <p class="hero-greeting">Hello, I'm</p>
@@ -24,9 +39,7 @@
 
           <p class="hero-bio">I'm an undergraduate student in Applied Artificial Intelligence at <a href="https://www.skku.edu/eng/index.do">Sungkyunkwan University (SKKU)</a>.</p>
 
-          <p class="hero-bio">I am currently a research intern at the <a href="https://viplab.snu.ac.kr/index.html">Visual Information Processing Lab</a> at <a href="https://www.snu.ac.kr/">Seoul National University</a>, advised by <a href="http://www.joonseok.net/home.html">Prof. Joonseok Lee</a>, where I conduct research on video understanding and multimodal fusion.</p>
-
-          <p class="hero-bio">Previously, I was a researcher at the <a href="https://dli.skku.edu/">Data &amp; Language Intelligence Laboratory (DLI)</a>, advised by Prof. YunSeok Choi, and at the <a href="https://swb.skku.edu/dehublab/index.do">Digital Environment Human Behavior Lab (DEHUB)</a>, advised by Prof. Daeho Lee, at <a href="https://www.skku.edu/eng/index.do">Sungkyunkwan University (SKKU)</a>.</p>
+          <p class="hero-bio">I am currently a research intern at the <a href="https://viplab.snu.ac.kr/index.html">Visual Information Processing (VIP) Lab</a> at <a href="https://www.snu.ac.kr/">Seoul National University</a>, advised by <a href="http://www.joonseok.net/home.html">Prof. Joonseok Lee</a>, where I conduct research on video understanding and multimodal fusion.</p>
 
           <p class="hero-bio">I am honored to have been selected as a Presidential Science Scholar, and I am always open to collaboration and research discussions.</p>
 
@@ -48,15 +61,47 @@
 
     <main class="container">
       <!-- ===== Research ===== -->
-      <section class="section">
+      <section class="section" id="research">
         <h2 class="section-title">Research</h2>
         <p class="research-desc">
           My research interests include video understanding and multimodal fusion, with a focus on building robust and interpretable AI systems.
         </p>
       </section>
 
+      <!-- ===== Experience ===== -->
+      <section class="section" id="experience">
+        <h2 class="section-title">Research Experience</h2>
+
+        <div class="entry">
+          <div class="entry-date">Mar 2026 – Present</div>
+          <div class="entry-body">
+            <span class="card-title">Research Intern, Seoul National University</span>
+            <p class="entry-desc">Conducted research on video understanding and multimodal fusion.</p>
+            <p class="card-meta"><a href="https://viplab.snu.ac.kr/index.html">Visual Information Processing (VIP) Lab</a> · Advisor: Prof. Joonseok Lee</p>
+          </div>
+        </div>
+
+        <div class="entry">
+          <div class="entry-date">Jul 2025 – Jan 2026</div>
+          <div class="entry-body">
+            <span class="card-title">Research Intern, Sungkyunkwan University</span>
+            <p class="entry-desc">Conducted research on large language models and multimodal fusion.</p>
+            <p class="card-meta"><a href="https://dli.skku.edu/">Data &amp; Language Intelligence (DLI) Lab</a> · Advisor: Prof. YunSeok Choi</p>
+          </div>
+        </div>
+
+        <div class="entry">
+          <div class="entry-date">Dec 2024 – Jul 2025</div>
+          <div class="entry-body">
+            <span class="card-title">Research Intern, Sungkyunkwan University</span>
+            <p class="entry-desc">Conducted research on predictive modeling using natural language processing.</p>
+            <p class="card-meta"><a href="https://swb.skku.edu/dehublab/index.do">Digital Environment Human Behavior (DEHUB) Lab</a> · Advisor: Prof. Daeho Lee</p>
+          </div>
+        </div>
+      </section>
+
       <!-- ===== Publications ===== -->
-      <section class="section">
+      <section class="section" id="publications">
         <h2 class="section-title">Publications</h2>
 
         <div class="card">
@@ -87,7 +132,7 @@
       </section>
 
       <!-- ===== Honors & Awards ===== -->
-      <section class="section">
+      <section class="section" id="awards">
         <h2 class="section-title">Honors &amp; Awards</h2>
 
         <div class="entry">
@@ -172,7 +217,7 @@
       </section>
 
       <!-- ===== Scholarship ===== -->
-      <section class="section">
+      <section class="section" id="scholarship">
         <h2 class="section-title">Scholarship</h2>
 
         <div class="entry">
@@ -216,7 +261,7 @@
     <!-- ===== Footer ===== -->
     <footer class="footer">
       <div class="container">
-        <p>© 2026 Junhyung Kim · Code source is from <a href="https://github.com/jonbarron/jonbarron_website">Jon Barron</a>.</p>
+        <p>© 2026 Junhyung Kim</p>
       </div>
     </footer>
   </body>
