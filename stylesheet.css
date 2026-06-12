@@ -98,15 +98,33 @@ sup {
 }
 
 .navbar-links a {
+  position: relative;
   font-size: 14px;
   font-weight: 500;
   color: #b6c8e4;
+  padding: 6px 2px;
 }
 
 .navbar-links a:hover,
 .navbar-links a:focus {
   color: var(--white);
   text-decoration: none;
+}
+
+.navbar-links a.active {
+  color: var(--white);
+  font-weight: 600;
+}
+
+.navbar-links a.active::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 2.5px;
+  border-radius: 2px;
+  background: var(--accent);
 }
 
 /* =========================
@@ -290,6 +308,36 @@ sup {
   font-size: 13px;
   color: var(--text-light);
   margin-top: 4px;
+}
+
+.code-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  margin-left: 8px;
+  padding: 2px 11px;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: var(--navy-100);
+  color: var(--navy-700);
+  font-size: 12.5px;
+  font-weight: 600;
+  line-height: 1.6;
+  vertical-align: middle;
+  transition: background-color 0.15s ease, color 0.15s ease, border-color 0.15s ease;
+}
+
+.code-link svg {
+  width: 13px;
+  height: 13px;
+}
+
+.code-link:hover,
+.code-link:focus {
+  background: var(--navy-600);
+  border-color: var(--navy-600);
+  color: var(--white);
+  text-decoration: none;
 }
 
 /* =========================

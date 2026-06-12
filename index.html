@@ -113,7 +113,7 @@
         <div class="card">
           <span class="card-title">DRUM: Dense Reliability Utilization Module for Robust Autonomous Driving Perception</span>
           <p class="card-authors"><span class="me">Junhyung Kim</span>, Mingu Kang, YunSeok Choi<sup>†</sup></p>
-          <p class="card-meta"><em>Preprint</em>, 2026 · <a href="https://github.com/Bellissimo-AI/DRUM">[code]</a></p>
+          <p class="card-meta"><em>Preprint</em>, 2026 <a class="code-link" href="https://github.com/Bellissimo-AI/DRUM"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>Code</a></p>
         </div>
 
         <div class="card">
@@ -184,7 +184,7 @@
           <div class="entry-body">
             <span class="card-title">Excellence Award, Korea Energy Agency</span>
             <p class="entry-desc">Development of a power consumption forecasting AI model.</p>
-            <p class="card-meta"><em>Power Consumption Forecasting AI Competition</em> · <a href="https://github.com/Bellissimo-AI/2025_Electricity_Consumption_Forecasting_AI_Competition">[code]</a></p>
+            <p class="card-meta"><em>Power Consumption Forecasting AI Competition</em> <a class="code-link" href="https://github.com/Bellissimo-AI/2025_Electricity_Consumption_Forecasting_AI_Competition"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>Code</a></p>
           </div>
         </div>
 
@@ -193,7 +193,7 @@
           <div class="entry-body">
             <span class="card-title">President's Award, Institute for Information &amp; Communications Technology Planning &amp; Evaluation</span>
             <p class="entry-desc">Development of an AI model to detect LLM-generated text. Winner of the Popularity Award.</p>
-            <p class="card-meta"><em>SW-Centered University Digital Competition: AI Sector</em> · <a href="https://github.com/Bellissimo-AI/2025_SW_Centered_University_Digital_Competition">[code]</a></p>
+            <p class="card-meta"><em>SW-Centered University Digital Competition: AI Sector</em> <a class="code-link" href="https://github.com/Bellissimo-AI/2025_SW_Centered_University_Digital_Competition"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>Code</a></p>
           </div>
         </div>
 
@@ -264,5 +264,33 @@
         <p>© 2026 Junhyung Kim</p>
       </div>
     </footer>
+
+    <script>
+      (function () {
+        const navLinks = document.querySelectorAll('.navbar-links a');
+        const sections = Array.from(navLinks)
+          .map(link => document.querySelector(link.getAttribute('href')))
+          .filter(Boolean);
+
+        function updateActive() {
+          const pos = window.scrollY + 120;
+          let current = sections[0];
+          for (const section of sections) {
+            if (section.offsetTop <= pos) current = section;
+          }
+          // At the very bottom of the page, highlight the last section
+          if (window.innerHeight + window.scrollY >= document.body.offsetHeight - 4) {
+            current = sections[sections.length - 1];
+          }
+          navLinks.forEach(link => {
+            link.classList.toggle('active', link.getAttribute('href') === '#' + current.id);
+          });
+        }
+
+        window.addEventListener('scroll', updateActive, { passive: true });
+        window.addEventListener('resize', updateActive);
+        updateActive();
+      })();
+    </script>
   </body>
 </html>
