@@ -2,294 +2,399 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <title>Junhyung Kim</title>
-
-    <meta name="author" content="Junhyung Kim">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>✧</text></svg>">
+    <meta name="author" content="Junhyung Kim">
+    <meta name="description" content="Junhyung Kim — undergraduate researcher in applied artificial intelligence, video understanding, and multimodal fusion.">
+    <meta name="theme-color" content="#101b2d">
+    <title>Junhyung Kim — AI Researcher</title>
+
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='24' fill='%23101b2d'/><text x='50' y='67' text-anchor='middle' fill='%23fff' font-size='50' font-family='Arial'>JK</text></svg>">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="stylesheet.css?v=20260612b">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&amp;family=Manrope:wght@500;600;700&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="stylesheet.css?v=20260622">
   </head>
 
   <body>
-    <!-- ===== Navbar ===== -->
-    <nav class="navbar">
-      <div class="container navbar-inner">
-        <a class="navbar-brand" href="#about">Junhyung Kim</a>
-        <div class="navbar-links">
+    <a class="skip-link" href="#main-content">Skip to content</a>
+
+    <nav class="navbar" aria-label="Primary navigation">
+      <div class="shell navbar-inner">
+        <a class="navbar-brand" href="#about" aria-label="Junhyung Kim, back to top">
+          <span class="brand-mark">JK</span>
+          <span>Junhyung Kim</span>
+        </a>
+
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-links" aria-label="Open navigation">
+          <span></span><span></span>
+        </button>
+
+        <div class="navbar-links" id="nav-links">
           <a href="#about">About</a>
           <a href="#research">Research</a>
           <a href="#experience">Experience</a>
           <a href="#publications">Publications</a>
-          <a href="#awards">Honors &amp; Awards</a>
+          <a href="#awards">Awards</a>
           <a href="#scholarship">Scholarship</a>
         </div>
       </div>
     </nav>
 
-    <!-- ===== Hero ===== -->
     <header class="hero" id="about">
-      <div class="container hero-inner">
-        <div class="hero-text">
-          <p class="hero-greeting">Hello, I'm</p>
-          <h1 class="hero-name">Junhyung Kim</h1>
-          <p class="hero-tagline">Undergraduate Researcher · Applied Artificial Intelligence</p>
+      <div class="hero-orb hero-orb-one" aria-hidden="true"></div>
+      <div class="hero-orb hero-orb-two" aria-hidden="true"></div>
+      <div class="shell hero-grid">
+        <div class="hero-copy reveal">
+          <p class="eyebrow"><span class="status-dot"></span> Open to research collaborations</p>
+          <h1>Building AI that<br><em>understands.</em></h1>
+          <p class="hero-lede">I'm Junhyung Kim, an undergraduate researcher exploring video understanding and multimodal fusion.</p>
 
-          <p class="hero-bio">I'm an undergraduate student in Applied Artificial Intelligence at <a href="https://www.skku.edu/eng/index.do">Sungkyunkwan University (SKKU)</a>.</p>
+          <div class="hero-intro">
+            <p>I study Applied Artificial Intelligence at <a href="https://www.skku.edu/eng/index.do">Sungkyunkwan University</a> and work as a research intern at the <a href="https://viplab.snu.ac.kr/index.html">VIP Lab</a>, Seoul National University, advised by <a href="http://www.joonseok.net/home.html">Prof. Joonseok Lee</a>.</p>
+            <p>Presidential Science Scholar. Always glad to talk about research, ambitious ideas, and thoughtful collaborations.</p>
+          </div>
 
-          <p class="hero-bio">I am currently a research intern at the <a href="https://viplab.snu.ac.kr/index.html">Visual Information Processing (VIP) Lab</a> at <a href="https://www.snu.ac.kr/">Seoul National University</a>, advised by <a href="http://www.joonseok.net/home.html">Prof. Joonseok Lee</a>, where I conduct research on video understanding and multimodal fusion.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="mailto:at100@g.skku.edu">Let's talk <span aria-hidden="true">↗</span></a>
+            <a class="button button-secondary" href="CV/CV.pdf">View CV <span aria-hidden="true">↓</span></a>
+          </div>
 
-          <p class="hero-bio">I am honored to have been selected as a Presidential Science Scholar, and I am always open to collaboration and research discussions.</p>
-
-          <div class="hero-links">
-            <a class="btn" href="mailto:at100@g.skku.edu">Email</a>
-            <a class="btn" href="CV/CV.pdf">CV</a>
-            <a class="btn" href="https://www.linkedin.com/in/bellissimo-ai">LinkedIn</a>
-            <a class="btn" href="https://github.com/Bellissimo-AI">GitHub</a>
+          <div class="social-links" aria-label="Social links">
+            <a href="https://www.linkedin.com/in/bellissimo-ai">LinkedIn</a>
+            <a href="https://github.com/Bellissimo-AI">GitHub</a>
+            <a href="mailto:at100@g.skku.edu">Email</a>
           </div>
         </div>
 
-        <div class="hero-photo">
-          <a href="images/me/profile1.png">
-            <img src="images/me/profile1.png" alt="profile photo">
-          </a>
+        <div class="portrait-wrap reveal">
+          <div class="portrait-frame">
+            <img src="images/me/profile1.png" alt="Portrait of Junhyung Kim" width="1200" height="1800">
+            <span class="portrait-label">Seoul, South Korea<br><strong>37.5665° N</strong></span>
+          </div>
+          <div class="portrait-note" aria-hidden="true">
+            <span>Applied AI</span>
+            <span>2026</span>
+          </div>
         </div>
       </div>
     </header>
 
-    <main class="container">
-      <!-- ===== Research ===== -->
-      <section class="section" id="research">
-        <h2 class="section-title">Research</h2>
-        <p class="research-desc">
-          My research interests include video understanding and multimodal fusion, with a focus on building robust and interpretable AI systems.
-        </p>
+    <main id="main-content">
+      <section class="section research-section" id="research">
+        <div class="shell two-column">
+          <div class="section-heading reveal">
+            <p class="section-index">01 / Research</p>
+            <h2>Curious about how<br>machines make sense<br>of the world.</h2>
+          </div>
+          <div class="research-content reveal">
+            <p class="section-lede">My work focuses on building robust, interpretable AI systems that connect visual and language signals.</p>
+            <div class="interest-list">
+              <article class="interest-item">
+                <span class="interest-number">01</span>
+                <div>
+                  <h3>Video Understanding</h3>
+                  <p>Learning meaningful representations from complex temporal and visual signals.</p>
+                </div>
+              </article>
+              <article class="interest-item">
+                <span class="interest-number">02</span>
+                <div>
+                  <h3>Multimodal Fusion</h3>
+                  <p>Combining complementary modalities for reliable and context-aware intelligence.</p>
+                </div>
+              </article>
+              <article class="interest-item">
+                <span class="interest-number">03</span>
+                <div>
+                  <h3>Robust &amp; Interpretable AI</h3>
+                  <p>Designing systems whose decisions remain dependable and understandable.</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
       </section>
 
-      <!-- ===== Experience ===== -->
       <section class="section" id="experience">
-        <h2 class="section-title">Research Experience</h2>
-
-        <div class="entry">
-          <div class="entry-date">Mar 2026 – Present</div>
-          <div class="entry-body">
-            <span class="card-title">Research Intern, Seoul National University</span>
-            <p class="entry-desc">Conducted research on video understanding and multimodal fusion.</p>
-            <p class="card-meta"><a href="https://viplab.snu.ac.kr/index.html">Visual Information Processing (VIP) Lab</a> · Advisor: Prof. Joonseok Lee</p>
+        <div class="shell">
+          <div class="section-top reveal">
+            <div>
+              <p class="section-index">02 / Experience</p>
+              <h2>Research experience</h2>
+            </div>
+            <p>Working across vision, language, and human behavior.</p>
           </div>
-        </div>
 
-        <div class="entry">
-          <div class="entry-date">Jul 2025 – Jan 2026</div>
-          <div class="entry-body">
-            <span class="card-title">Research Intern, Sungkyunkwan University</span>
-            <p class="entry-desc">Conducted research on large language models and multimodal fusion.</p>
-            <p class="card-meta"><a href="https://dli.skku.edu/">Data &amp; Language Intelligence (DLI) Lab</a> · Advisor: Prof. YunSeok Choi</p>
-          </div>
-        </div>
+          <div class="timeline reveal">
+            <article class="timeline-item">
+              <div class="timeline-date">Mar 2026 — Present</div>
+              <div class="timeline-marker"><span></span></div>
+              <div class="timeline-body">
+                <p class="item-kicker">Seoul National University</p>
+                <h3>Research Intern</h3>
+                <p>Conducting research on video understanding and multimodal fusion.</p>
+                <p class="item-meta"><a href="https://viplab.snu.ac.kr/index.html">Visual Information Processing (VIP) Lab</a> · Advisor: Prof. Joonseok Lee</p>
+              </div>
+            </article>
 
-        <div class="entry">
-          <div class="entry-date">Dec 2024 – Jul 2025</div>
-          <div class="entry-body">
-            <span class="card-title">Research Intern, Sungkyunkwan University</span>
-            <p class="entry-desc">Conducted research on predictive modeling using natural language processing.</p>
-            <p class="card-meta"><a href="https://swb.skku.edu/dehublab/index.do">Digital Environment Human Behavior (DEHUB) Lab</a> · Advisor: Prof. Daeho Lee</p>
-          </div>
-        </div>
-      </section>
+            <article class="timeline-item">
+              <div class="timeline-date">Jul 2025 — Jan 2026</div>
+              <div class="timeline-marker"><span></span></div>
+              <div class="timeline-body">
+                <p class="item-kicker">Sungkyunkwan University</p>
+                <h3>Research Intern</h3>
+                <p>Conducted research on large language models and multimodal fusion.</p>
+                <p class="item-meta"><a href="https://dli.skku.edu/">Data &amp; Language Intelligence (DLI) Lab</a> · Advisor: Prof. YunSeok Choi</p>
+              </div>
+            </article>
 
-      <!-- ===== Publications ===== -->
-      <section class="section" id="publications">
-        <h2 class="section-title">Publications</h2>
-
-        <div class="card">
-          <span class="card-title">MoSE: A Mixture of Strategies Framework for Emotional Support Conversation</span>
-          <p class="card-authors">Junyeop Cha<sup>*</sup>, <span class="me">Junhyung Kim</span><sup>*</sup>, Youngwoong Kim<sup>*</sup>, Byungkun Lim<sup>*</sup>, Eunil Park<sup>†</sup></p>
-          <p class="card-meta"><em>Preprint</em>, 2026</p>
-        </div>
-
-        <div class="card">
-          <span class="card-title">DRUM: Dense Reliability Utilization Module for Robust Autonomous Driving Perception</span>
-          <p class="card-authors"><span class="me">Junhyung Kim</span>, Mingu Kang, YunSeok Choi<sup>†</sup></p>
-          <p class="card-meta"><em>Preprint</em>, 2026<br><a class="code-link" href="https://github.com/Bellissimo-AI/DRUM">Code</a></p>
-        </div>
-
-        <div class="card">
-          <span class="card-title">A Multi-Domain News Comment–Based Anxiety Index for Stock Price Forecasting</span>
-          <p class="card-authors"><span class="me">Junhyung Kim</span>, Sohyun An, Daeho Lee<sup>†</sup></p>
-          <p class="card-meta"><em>Preprint</em>, 2025</p>
-        </div>
-
-        <div class="card">
-          <span class="card-title">Analyzing Political Bias in Korean Online Communities Using a Sentiment Analysis Model Based on Soft Voting of KcBERT and KcELECTRA</span>
-          <p class="card-authors"><span class="me">Junhyung Kim</span>, Jihwan Chun, Sungjun Ha, Changi Choi, Daeho Lee<sup>†</sup></p>
-          <p class="card-meta"><em>International Telecommunications Policy Review (ITPR)</em>, 2025</p>
-        </div>
-
-        <p class="footnote"><sup>*</sup> Equal contribution. <sup>†</sup> Corresponding author.</p>
-      </section>
-
-      <!-- ===== Honors & Awards ===== -->
-      <section class="section" id="awards">
-        <h2 class="section-title">Honors &amp; Awards</h2>
-
-        <div class="entry">
-          <div class="entry-date">May 2026</div>
-          <div class="entry-body">
-            <span class="card-title">Dean's List Award, College of Computing and Informatics, Sungkyunkwan University</span>
-            <p class="entry-desc">Recognized for outstanding academic performance and ranked in the top 1% in Fall 2025.</p>
-          </div>
-        </div>
-
-        <div class="entry">
-          <div class="entry-date">Jan 2026</div>
-          <div class="entry-body">
-            <span class="card-title">Director's Award, Center for Innovative Higher Education, Sungkyunkwan University</span>
-            <p class="entry-desc">Authored a paper on a reliability-aware LiDAR–Camera BEV fusion module.</p>
-            <p class="card-meta"><em>Co-Deep Learning Project</em></p>
-          </div>
-        </div>
-
-        <div class="entry">
-          <div class="entry-date">Dec 2025</div>
-          <div class="entry-body">
-            <span class="card-title">Best Paper Award, Korean Regional Science Association</span>
-            <p class="entry-desc">Authored a paper on residents' perception differences under social mix housing allocation strategies.</p>
-            <p class="card-meta"><em>Fall Conference of KRSA</em></p>
-          </div>
-        </div>
-
-        <div class="entry">
-          <div class="entry-date">Nov 2025</div>
-          <div class="entry-body">
-            <span class="card-title">President's Award, Korea University AI Academic Society</span>
-            <p class="entry-desc">Development of a video summarization model using a Global-to-Local and Local-to-Global attention ensemble.</p>
-            <p class="card-meta"><em>Datathon of the National Center of Excellence in Software, Korea University</em></p>
-          </div>
-        </div>
-
-        <div class="entry">
-          <div class="entry-date">Oct 2025</div>
-          <div class="entry-body">
-            <span class="card-title">Dean's Award, College of Education, Sungkyunkwan University</span>
-            <p class="entry-desc">Development of a high-fidelity tax advisory AI system.</p>
-            <p class="card-meta"><em>5th Sungkyunkwan University AI Hackathon</em></p>
-          </div>
-        </div>
-
-        <div class="entry">
-          <div class="entry-date">Sep 2025</div>
-          <div class="entry-body">
-            <span class="card-title">Excellence Award, Korea Energy Agency</span>
-            <p class="entry-desc">Development of a power consumption forecasting AI model.</p>
-            <p class="card-meta"><em>Power Consumption Forecasting AI Competition</em><br><a class="code-link" href="https://github.com/Bellissimo-AI/2025_Electricity_Consumption_Forecasting_AI_Competition">Code</a></p>
-          </div>
-        </div>
-
-        <div class="entry">
-          <div class="entry-date">Aug 2025</div>
-          <div class="entry-body">
-            <span class="card-title">President's Award, Institute for Information &amp; Communications Technology Planning &amp; Evaluation</span>
-            <p class="entry-desc">Development of an AI model to detect LLM-generated text. Winner of the Popularity Award.</p>
-            <p class="card-meta"><em>SW-Centered University Digital Competition: AI Sector</em><br><a class="code-link" href="https://github.com/Bellissimo-AI/2025_SW_Centered_University_Digital_Competition">Code</a></p>
-          </div>
-        </div>
-
-        <div class="entry">
-          <div class="entry-date">May 2025</div>
-          <div class="entry-body">
-            <span class="card-title">Chairman's Award, DB Kim Jun Ki Cultural Foundation</span>
-            <p class="entry-desc">Authored a paper applying sentiment analysis to bond investment behavior.</p>
-            <p class="card-meta"><em>15th DB Insurance &amp; Finance Contest</em></p>
-          </div>
-        </div>
-
-        <div class="entry">
-          <div class="entry-date">Aug 2023</div>
-          <div class="entry-body">
-            <span class="card-title">Commissioner's Award, Korea Intellectual Property Office</span>
-            <p class="entry-desc">Designed an AI-based system for mitigating acoustic noise in naval propulsion and maneuvering.</p>
-            <p class="card-meta"><em>National Defense Conundrum Solution Idea Competition</em></p>
+            <article class="timeline-item">
+              <div class="timeline-date">Dec 2024 — Jul 2025</div>
+              <div class="timeline-marker"><span></span></div>
+              <div class="timeline-body">
+                <p class="item-kicker">Sungkyunkwan University</p>
+                <h3>Research Intern</h3>
+                <p>Conducted research on predictive modeling using natural language processing.</p>
+                <p class="item-meta"><a href="https://swb.skku.edu/dehublab/index.do">Digital Environment Human Behavior (DEHUB) Lab</a> · Advisor: Prof. Daeho Lee</p>
+              </div>
+            </article>
           </div>
         </div>
       </section>
 
-      <!-- ===== Scholarship ===== -->
-      <section class="section" id="scholarship">
-        <h2 class="section-title">Scholarship</h2>
-
-        <div class="entry">
-          <div class="entry-date">Mar 2025 – Present</div>
-          <div class="entry-body">
-            <span class="card-title">Presidential Science Scholarship</span>
-            <p class="entry-desc">One of 60 nationally selected science and engineering students awarded full tuition and research funding.</p>
-            <p class="card-meta"><em>President of the Republic of Korea</em></p>
+      <section class="section publications-section" id="publications">
+        <div class="shell">
+          <div class="section-top reveal">
+            <div>
+              <p class="section-index">03 / Publications</p>
+              <h2>Selected writing &amp; research</h2>
+            </div>
+            <p>Work spanning emotional support, autonomous driving, financial forecasting, and social computing.</p>
           </div>
+
+          <div class="publication-list reveal">
+            <article class="publication-item">
+              <span class="publication-number">01</span>
+              <div class="publication-content">
+                <h3>MoSE: A Mixture of Strategies Framework for Emotional Support Conversation</h3>
+                <p class="authors">Junyeop Cha<sup>*</sup>, <strong>Junhyung Kim</strong><sup>*</sup>, Youngwoong Kim<sup>*</sup>, Byungkun Lim<sup>*</sup>, Eunil Park<sup>†</sup></p>
+                <p class="venue"><span>Preprint</span> 2026</p>
+              </div>
+              <span class="publication-arrow" aria-hidden="true">↗</span>
+            </article>
+
+            <article class="publication-item">
+              <span class="publication-number">02</span>
+              <div class="publication-content">
+                <h3>DRUM: Dense Reliability Utilization Module for Robust Autonomous Driving Perception</h3>
+                <p class="authors"><strong>Junhyung Kim</strong>, Mingu Kang, YunSeok Choi<sup>†</sup></p>
+                <p class="venue"><span>Preprint</span> 2026 · <a href="https://github.com/Bellissimo-AI/DRUM">Code ↗</a></p>
+              </div>
+              <a class="publication-arrow" href="https://github.com/Bellissimo-AI/DRUM" aria-label="View DRUM code">↗</a>
+            </article>
+
+            <article class="publication-item">
+              <span class="publication-number">03</span>
+              <div class="publication-content">
+                <h3>A Multi-Domain News Comment–Based Anxiety Index for Stock Price Forecasting</h3>
+                <p class="authors"><strong>Junhyung Kim</strong>, Sohyun An, Daeho Lee<sup>†</sup></p>
+                <p class="venue"><span>Preprint</span> 2025</p>
+              </div>
+              <span class="publication-arrow" aria-hidden="true">↗</span>
+            </article>
+
+            <article class="publication-item">
+              <span class="publication-number">04</span>
+              <div class="publication-content">
+                <h3>Analyzing Political Bias in Korean Online Communities Using a Sentiment Analysis Model Based on Soft Voting of KcBERT and KcELECTRA</h3>
+                <p class="authors"><strong>Junhyung Kim</strong>, Jihwan Chun, Sungjun Ha, Changi Choi, Daeho Lee<sup>†</sup></p>
+                <p class="venue"><span>ITPR</span> 2025</p>
+              </div>
+              <span class="publication-arrow" aria-hidden="true">↗</span>
+            </article>
+          </div>
+          <p class="footnote"><sup>*</sup> Equal contribution. <sup>†</sup> Corresponding author.</p>
         </div>
+      </section>
 
-        <div class="entry">
-          <div class="entry-date">Aug 2024</div>
-          <div class="entry-body">
-            <span class="card-title">Academic Excellence Scholarship for 2024 Spring Semester</span>
-            <p class="entry-desc">Achieved a 4.50/4.50 GPA for 17 Credits.</p>
-            <p class="card-meta"><em>College of Computing and Informatics, Sungkyunkwan University</em></p>
+      <section class="section collection-section" id="awards" data-filter-section>
+        <div class="shell">
+          <div class="section-top reveal">
+            <div>
+              <p class="section-index">04 / Recognition</p>
+              <h2>Honors &amp; Awards</h2>
+            </div>
+            <div class="filter-tabs" role="group" aria-label="Filter honors and awards">
+              <button class="filter-tab is-active" type="button" data-filter="selected" aria-pressed="true">Selected</button>
+              <button class="filter-tab" type="button" data-filter="all" aria-pressed="false">All <span>9</span></button>
+            </div>
           </div>
+
+          <div class="collection-list reveal" aria-live="polite">
+            <article class="collection-item" data-featured="true">
+              <div class="collection-date">May 2026</div>
+              <div class="collection-body"><h3>Dean's List Award</h3><p>College of Computing and Informatics, Sungkyunkwan University</p><p class="collection-desc">Recognized for outstanding academic performance and ranked in the top 1% in Fall 2025.</p></div>
+              <span class="collection-badge">Academic</span>
+            </article>
+            <article class="collection-item" data-featured="false">
+              <div class="collection-date">Jan 2026</div>
+              <div class="collection-body"><h3>Director's Award</h3><p>Center for Innovative Higher Education, Sungkyunkwan University</p><p class="collection-desc">Authored a paper on a reliability-aware LiDAR–Camera BEV fusion module · Co-Deep Learning Project</p></div>
+              <span class="collection-badge">Research</span>
+            </article>
+            <article class="collection-item" data-featured="true">
+              <div class="collection-date">Dec 2025</div>
+              <div class="collection-body"><h3>Best Paper Award</h3><p>Korean Regional Science Association</p><p class="collection-desc">Authored a paper on residents' perception differences under social mix housing allocation strategies · Fall Conference of KRSA</p></div>
+              <span class="collection-badge">Paper</span>
+            </article>
+            <article class="collection-item" data-featured="true">
+              <div class="collection-date">Nov 2025</div>
+              <div class="collection-body"><h3>President's Award</h3><p>Korea University AI Academic Society</p><p class="collection-desc">Development of a video summarization model using a Global-to-Local and Local-to-Global attention ensemble · Datathon of the National Center of Excellence in Software, Korea University</p></div>
+              <span class="collection-badge">AI</span>
+            </article>
+            <article class="collection-item" data-featured="false">
+              <div class="collection-date">Oct 2025</div>
+              <div class="collection-body"><h3>Dean's Award</h3><p>College of Education, Sungkyunkwan University</p><p class="collection-desc">Development of a high-fidelity tax advisory AI system · 5th Sungkyunkwan University AI Hackathon</p></div>
+              <span class="collection-badge">AI</span>
+            </article>
+            <article class="collection-item" data-featured="false">
+              <div class="collection-date">Sep 2025</div>
+              <div class="collection-body"><h3>Excellence Award</h3><p>Korea Energy Agency</p><p class="collection-desc">Development of a power consumption forecasting AI model · Power Consumption Forecasting AI Competition · <a href="https://github.com/Bellissimo-AI/2025_Electricity_Consumption_Forecasting_AI_Competition">Code ↗</a></p></div>
+              <span class="collection-badge">AI</span>
+            </article>
+            <article class="collection-item" data-featured="true">
+              <div class="collection-date">Aug 2025</div>
+              <div class="collection-body"><h3>President's Award</h3><p>Institute for Information &amp; Communications Technology Planning &amp; Evaluation</p><p class="collection-desc">Development of an AI model to detect LLM-generated text. Winner of the Popularity Award · SW-Centered University Digital Competition: AI Sector · <a href="https://github.com/Bellissimo-AI/2025_SW_Centered_University_Digital_Competition">Code ↗</a></p></div>
+              <span class="collection-badge">National</span>
+            </article>
+            <article class="collection-item" data-featured="false">
+              <div class="collection-date">May 2025</div>
+              <div class="collection-body"><h3>Chairman's Award</h3><p>DB Kim Jun Ki Cultural Foundation</p><p class="collection-desc">Authored a paper applying sentiment analysis to bond investment behavior · 15th DB Insurance &amp; Finance Contest</p></div>
+              <span class="collection-badge">Paper</span>
+            </article>
+            <article class="collection-item" data-featured="false">
+              <div class="collection-date">Aug 2023</div>
+              <div class="collection-body"><h3>Commissioner's Award</h3><p>Korea Intellectual Property Office</p><p class="collection-desc">Designed an AI-based system for mitigating acoustic noise in naval propulsion and maneuvering · National Defense Conundrum Solution Idea Competition</p></div>
+              <span class="collection-badge">National</span>
+            </article>
+          </div>
+          <p class="filter-summary"><span data-visible-count>4</span> of 9 honors shown</p>
         </div>
+      </section>
 
-        <div class="entry">
-          <div class="entry-date">Feb 2024</div>
-          <div class="entry-body">
-            <span class="card-title">Student Success Scholarship (Leader)</span>
-            <p class="entry-desc">Granted in recognition of leadership, initiative, and student engagement.</p>
-            <p class="card-meta"><em>Sungkyunkwan University</em></p>
+      <section class="section collection-section scholarship-section" id="scholarship" data-filter-section>
+        <div class="shell">
+          <div class="section-top reveal">
+            <div>
+              <p class="section-index">05 / Scholarship</p>
+              <h2>Scholarship</h2>
+            </div>
+            <div class="filter-tabs" role="group" aria-label="Filter scholarships">
+              <button class="filter-tab is-active" type="button" data-filter="selected" aria-pressed="true">Selected</button>
+              <button class="filter-tab" type="button" data-filter="all" aria-pressed="false">All <span>4</span></button>
+            </div>
           </div>
-        </div>
 
-        <div class="entry">
-          <div class="entry-date">Mar 2023 – Feb 2025</div>
-          <div class="entry-body">
-            <span class="card-title">YulGok Scholarship</span>
-            <p class="entry-desc">Awarded for 4 consecutive semesters based on outstanding academic achievement at admission.</p>
-            <p class="card-meta"><em>Sungkyunkwan University</em></p>
+          <div class="collection-list reveal" aria-live="polite">
+            <article class="collection-item scholarship-feature" data-featured="true">
+              <div class="collection-date">Mar 2025 — Present</div>
+              <div class="collection-body"><h3>Presidential Science Scholarship</h3><p>President of the Republic of Korea</p><p class="collection-desc">One of 60 nationally selected science and engineering students awarded full tuition and research funding.</p></div>
+              <span class="collection-badge">National</span>
+            </article>
+            <article class="collection-item" data-featured="false">
+              <div class="collection-date">Aug 2024</div>
+              <div class="collection-body"><h3>Academic Excellence Scholarship for 2024 Spring Semester</h3><p>College of Computing and Informatics, Sungkyunkwan University</p><p class="collection-desc">Achieved a 4.50/4.50 GPA for 17 Credits.</p></div>
+              <span class="collection-badge">Academic</span>
+            </article>
+            <article class="collection-item" data-featured="false">
+              <div class="collection-date">Feb 2024</div>
+              <div class="collection-body"><h3>Student Success Scholarship (Leader)</h3><p>Sungkyunkwan University</p><p class="collection-desc">Granted in recognition of leadership, initiative, and student engagement.</p></div>
+              <span class="collection-badge">Leadership</span>
+            </article>
+            <article class="collection-item" data-featured="false">
+              <div class="collection-date">Mar 2023 — Feb 2025</div>
+              <div class="collection-body"><h3>YulGok Scholarship</h3><p>Sungkyunkwan University</p><p class="collection-desc">Awarded for 4 consecutive semesters based on outstanding academic achievement at admission.</p></div>
+              <span class="collection-badge">Academic</span>
+            </article>
           </div>
+          <p class="filter-summary"><span data-visible-count>1</span> of 4 scholarships shown</p>
         </div>
       </section>
     </main>
 
-    <!-- ===== Footer ===== -->
     <footer class="footer">
-      <div class="container">
-        <p>© 2026 Junhyung Kim</p>
+      <div class="shell footer-inner">
+        <div>
+          <p class="footer-kicker">Have an interesting idea?</p>
+          <a class="footer-cta" href="mailto:at100@g.skku.edu">Let's make it real. <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="footer-meta">
+          <div><a href="https://www.linkedin.com/in/bellissimo-ai">LinkedIn</a><a href="https://github.com/Bellissimo-AI">GitHub</a><a href="CV/CV.pdf">CV</a></div>
+          <p>© 2026 Junhyung Kim</p>
+        </div>
       </div>
     </footer>
 
     <script>
-      (function () {
-        const navLinks = document.querySelectorAll('.navbar-links a');
-        const sections = Array.from(navLinks)
-          .map(link => document.querySelector(link.getAttribute('href')))
-          .filter(Boolean);
+      (() => {
+        const nav = document.querySelector('.navbar');
+        const navToggle = document.querySelector('.nav-toggle');
+        const navLinks = document.querySelector('.navbar-links');
 
-        function updateActive() {
-          const pos = window.scrollY + 120;
+        navToggle.addEventListener('click', () => {
+          const open = navToggle.getAttribute('aria-expanded') === 'true';
+          navToggle.setAttribute('aria-expanded', String(!open));
+          navToggle.setAttribute('aria-label', open ? 'Open navigation' : 'Close navigation');
+          navLinks.classList.toggle('is-open', !open);
+        });
+
+        navLinks.addEventListener('click', event => {
+          if (!event.target.matches('a')) return;
+          navToggle.setAttribute('aria-expanded', 'false');
+          navToggle.setAttribute('aria-label', 'Open navigation');
+          navLinks.classList.remove('is-open');
+        });
+
+        const trackedLinks = [...document.querySelectorAll('.navbar-links a')];
+        const sections = trackedLinks.map(link => document.querySelector(link.hash)).filter(Boolean);
+        const updateNav = () => {
+          nav.classList.toggle('is-scrolled', window.scrollY > 12);
+          const marker = window.scrollY + Math.min(360, window.innerHeight * 0.45);
           let current = sections[0];
-          for (const section of sections) {
-            if (section.offsetTop <= pos) current = section;
-          }
-          // At the very bottom of the page, highlight the last section
-          if (window.innerHeight + window.scrollY >= document.body.offsetHeight - 4) {
-            current = sections[sections.length - 1];
-          }
-          navLinks.forEach(link => {
-            link.classList.toggle('active', link.getAttribute('href') === '#' + current.id);
-          });
-        }
+          sections.forEach(section => { if (section.offsetTop <= marker) current = section; });
+          if (window.innerHeight + window.scrollY >= document.documentElement.scrollHeight - 8) current = sections.at(-1);
+          trackedLinks.forEach(link => link.classList.toggle('active', link.hash === `#${current.id}`));
+        };
+        window.addEventListener('scroll', updateNav, { passive: true });
+        window.addEventListener('resize', updateNav);
+        updateNav();
 
-        window.addEventListener('scroll', updateActive, { passive: true });
-        window.addEventListener('resize', updateActive);
-        updateActive();
+        document.querySelectorAll('[data-filter-section]').forEach(section => {
+          const items = [...section.querySelectorAll('.collection-item')];
+          const count = section.querySelector('[data-visible-count]');
+          section.querySelectorAll('[data-filter]').forEach(button => {
+            button.addEventListener('click', () => {
+              const showAll = button.dataset.filter === 'all';
+              section.querySelectorAll('[data-filter]').forEach(tab => {
+                const active = tab === button;
+                tab.classList.toggle('is-active', active);
+                tab.setAttribute('aria-pressed', String(active));
+              });
+              items.forEach(item => { item.hidden = !showAll && item.dataset.featured !== 'true'; });
+              count.textContent = showAll ? items.length : items.filter(item => item.dataset.featured === 'true').length;
+            });
+          });
+          items.forEach(item => { item.hidden = item.dataset.featured !== 'true'; });
+        });
+
+        const observer = new IntersectionObserver(entries => {
+          entries.forEach(entry => {
+            if (entry.isIntersecting) {
+              entry.target.classList.add('is-visible');
+              observer.unobserve(entry.target);
+            }
+          });
+        }, { threshold: 0.08 });
+        document.querySelectorAll('.reveal').forEach(element => observer.observe(element));
       })();
     </script>
   </body>
