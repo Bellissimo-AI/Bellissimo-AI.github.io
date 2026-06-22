@@ -500,7 +500,7 @@ img {
   height: 34px;
   margin-top: 6px;
   color: var(--muted) !important;
-  background: var(--white);
+  background: transparent;
   border: 1px solid rgba(24, 33, 47, 0.12);
   border-radius: 4px;
   text-decoration: none !important;
@@ -515,7 +515,7 @@ img {
 
 .code-link:hover {
   color: var(--ink) !important;
-  background: var(--paper);
+  background: rgba(24, 33, 47, 0.035);
   border-color: rgba(24, 33, 47, 0.28);
   transform: translateY(-1px);
 }
