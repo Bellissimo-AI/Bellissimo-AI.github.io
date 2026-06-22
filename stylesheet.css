@@ -663,11 +663,11 @@ sup {
   background: var(--white);
 }
 
-.scholarship-feature {
+.collection-item[data-featured='true'] {
   position: relative;
 }
 
-.scholarship-feature::before {
+.collection-item[data-featured='true']::before {
   content: '';
   position: absolute;
   top: -1px;
@@ -876,7 +876,7 @@ sup {
     grid-column: auto;
   }
 
-  .scholarship-feature::before {
+  .collection-item[data-featured='true']::before {
     left: -18px;
   }
 
