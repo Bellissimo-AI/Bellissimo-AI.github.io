@@ -383,8 +383,8 @@ img {
 
 .timeline-item {
   display: grid;
-  grid-template-columns: 145px 28px 1fr;
-  gap: 20px;
+  grid-template-columns: 145px 28px 52px 1fr;
+  gap: 18px;
   min-height: 164px;
   padding: 28px 0 0;
 }
@@ -424,6 +424,28 @@ img {
   border: 2px solid var(--blue);
   border-radius: 50%;
   box-shadow: 0 0 0 6px var(--paper);
+}
+
+.timeline-logo {
+  display: grid;
+  width: 48px;
+  height: 48px;
+  margin-top: 1px;
+  overflow: hidden;
+  place-items: center;
+}
+
+.timeline-logo img {
+  display: block;
+  width: 42px;
+  height: 42px;
+  object-fit: contain;
+}
+
+.timeline-logo-skku img {
+  width: 74px;
+  height: 74px;
+  max-width: none;
 }
 
 .timeline-body {
@@ -752,6 +774,10 @@ sup {
     display: none;
   }
 
+  .timeline-item {
+    grid-template-columns: 145px 52px 1fr;
+  }
+
   .collection-badge {
     grid-column: 2;
     width: fit-content;
@@ -852,11 +878,24 @@ sup {
   }
 
   .timeline-item {
+    grid-template-columns: 48px 1fr;
+    column-gap: 14px;
     min-height: 0;
     padding-top: 24px;
   }
 
+  .timeline-date {
+    grid-column: 1 / -1;
+  }
+
+  .timeline-logo {
+    grid-column: 1;
+    grid-row: 2;
+  }
+
   .timeline-body {
+    grid-column: 2;
+    grid-row: 2;
     padding-bottom: 26px;
   }
 
