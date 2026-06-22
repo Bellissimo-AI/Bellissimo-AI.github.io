@@ -513,7 +513,7 @@ img {
   max-width: 900px;
   margin-bottom: 9px;
   font-family: var(--display);
-  font-size: clamp(16.5px, 1.7vw, 20px);
+  font-size: clamp(15.5px, 1.55vw, 18.5px);
   font-weight: 500;
   letter-spacing: -0.035em;
   line-height: 1.35;
@@ -521,7 +521,7 @@ img {
 
 .authors {
   color: var(--muted);
-  font-size: 13px;
+  font-size: 14px;
 }
 
 .authors strong {
@@ -536,7 +536,7 @@ sup {
 .venue {
   margin-top: 7px;
   color: var(--muted);
-  font-size: 11px;
+  font-size: 12.5px;
   letter-spacing: 0.05em;
   text-transform: uppercase;
 }
@@ -626,13 +626,13 @@ sup {
 
 .collection-body > p:not(.collection-desc) {
   color: var(--ink-soft);
-  font-size: 13px;
+  font-size: 14px;
 }
 
 .collection-desc {
   margin-top: 6px;
   color: var(--muted);
-  font-size: 12.5px;
+  font-size: 14px;
 }
 
 .collection-badge {
