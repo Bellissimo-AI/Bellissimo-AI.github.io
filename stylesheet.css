@@ -441,6 +441,11 @@ img {
   object-fit: contain;
 }
 
+.timeline-logo-skku img {
+  width: 76%;
+  height: 76%;
+}
+
 .timeline-body {
   max-width: 720px;
   padding: 28px 0 30px;
